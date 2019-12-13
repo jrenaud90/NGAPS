@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <meta name="Generator" content="iWeb 1.1.2" />
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="Welcome_files/Welcome.css" /><script type="text/javascript" src="Welcome_files/Welcome.js"></script>
+  </head>
+  <body style="background: #f5f3f3; margin: 0pt; " onload="onPageLoad();">
+    <div style="text-align: center; ">
+      <div style="margin-left: auto; margin-right: auto; overflow: hidden; position: relative;  background: #f5f3f3; text-align: left; width: 700px; " id="body_content">
+        <div style="float: left; height: 0px; line-height: 0px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
+          <div style="height: 0px; line-height: 0px; " class="tinyText"> </div>
+        </div>
+        <div style="height: 50px; margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
+          <div style="height: 0px; line-height: 0px; " class="tinyText"> </div>
+          <div style="height: 50px; left: 0px; position: absolute; top: 0px; width: 700px; z-index: 1; " class="graphic_navigationbar_style_default">
+            <div style="background: transparent url(Welcome_files/navbar_separator_0.png) no-repeat scroll center; height: 29px; left: 115px; position: absolute; top: 20px; width: 10px; z-index: 1; "></div>
+            <div style="background: transparent url(Welcome_files/navbar_separator_1.png) no-repeat scroll center; height: 29px; left: 191px; position: absolute; top: 20px; width: 10px; z-index: 1; "></div>
+            <div style="background: transparent url(Welcome_files/navbar_separator_2.png) no-repeat scroll center; height: 29px; left: 259px; position: absolute; top: 20px; width: 10px; z-index: 1; "></div>
+            <div style="background: transparent url(Welcome_files/navbar_active.png) no-repeat scroll center; height: 35px; left: 37px; position: absolute; top: 17px; width: 81px; z-index: 1; "></div>
+            <div style="background: transparent url(Welcome_files/navbar_0_normal.png) no-repeat scroll center; height: 35px; left: 122px; position: absolute; top: 17px; width: 72px; z-index: 1; " id="navbar_0_normal"></div>
+            <div style="background: transparent url(Welcome_files/navbar_0_rollover.png) no-repeat scroll center; height: 35px; left: 122px; position: absolute; top: 17px; visibility: hidden; width: 72px; z-index: 1; " id="navbar_0_rollover"></div>
+            <a style="display: block; height: 29px; left: 125px; position: absolute; top: 20px; width: 66px; z-index: 2; " onmouseout="NBmouseout('0');" href="Officers.html" onmouseover="NBmouseover('0');"></a>
+            <div style="background: transparent url(Welcome_files/navbar_1_normal.png) no-repeat scroll center; height: 35px; left: 198px; position: absolute; top: 17px; width: 64px; z-index: 1; " id="navbar_1_normal"></div>
+            <div style="background: transparent url(Welcome_files/navbar_1_rollover.png) no-repeat scroll center; height: 35px; left: 198px; position: absolute; top: 17px; visibility: hidden; width: 64px; z-index: 1; " id="navbar_1_rollover"></div>
+            <a style="display: block; height: 29px; left: 201px; position: absolute; top: 20px; width: 58px; z-index: 2; " onmouseout="NBmouseout('1');" href="Events.html" onmouseover="NBmouseover('1');"></a>
+            <div style="background: transparent url(Welcome_files/navbar_2_normal.png) no-repeat scroll center; height: 35px; left: 266px; position: absolute; top: 17px; width: 48px; z-index: 1; " id="navbar_2_normal"></div>
+            <div style="background: transparent url(Welcome_files/navbar_2_rollover.png) no-repeat scroll center; height: 35px; left: 266px; position: absolute; top: 17px; visibility: hidden; width: 48px; z-index: 1; " id="navbar_2_rollover"></div>
+            <a style="display: block; height: 29px; left: 269px; position: absolute; top: 20px; width: 42px; z-index: 2; " onmouseout="NBmouseout('2');" href="FAQ.html" onmouseover="NBmouseover('2');"></a>
+          </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
+          <div style="height: 0px; line-height: 0px; " class="tinyText"> </div>
+          <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
+          <div class="graphic_generic_body_textbox_style_default" style="margin-left: 40px; margin-top: 528px; position: relative; width: 620px; z-index: 1; ">
+            <div>
+              <div style="padding: 4px; " class="Normal">
+               <div class="paragraph Heading_1_Gray" style="line-height: 25px; padding-top: 0pt; "><span>Welcome to NGAPS, a place for Postdocs at Goddard to gather for social and academic events.  Please see our Events page for scheduled lunches and seminars or check the NASA Goddard Postdocs Facebook group.  To join the NGAPS mailing list send an email to one of the officers or to </span><a href="mailto:antonino.cucchiara@nasa.gov" title="mailto:antonino.cucchiara@nasa.gov" style="line-height: 24px; opacity: 1.00; ">NGAPS</a></div>
+                <div class="paragraph Heading_1_Gray" style="line-height: 25px; text-decoration: none;"> </div>
+                <div class="paragraph Heading_1_Gray" style="line-height: 25px; padding-bottom: 0pt; "><span>Join us on </span><a href="http://www.facebook.com/groups/65590660399/" title="http://www.facebook.com/groups/65590660399">facebook</a><span>.</span></div>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div class="graphic_generic_title_textbox_style_default" style="height: 41px; left: 40px; position: absolute; top: 24px; width: 620px; z-index: 1; " id="id1">
+            <div>
+              <div class="graphic_shape_layout_style_default">
+                <div class="paragraph Title_White" style="line-height: 26px; margin-bottom: 0px; margin-top: 0px; padding-bottom: 0pt; padding-top: 0pt; color: #710000; font-size: 24px; line-height: 26px; opacity: 1.00;">NASA Goddard Association of Postdoctoral Scholars</div>
+              </div>
+            </div>
+          </div>
+          
+
+<img src="Welcome_files/imageEffectsBelow_ngaps2.png" alt="" id="id3" style="border: none; height: 412px; left: 87px; opacity: 1.00; position: absolute; top: 80px; width: 530px; z-index: 1; " />
+
+<img src="Welcome_files/ngaps2.png" alt="" id="id2" style="border: none; height: 402px; left: 90px; opacity: 1.00; position: absolute; top: 84px; width: 521px; z-index: 1; " />
+
+<img src="Welcome_files/imageEffectsAbove_ngaps2.png" alt="" id="id4" style="border: none; height: 412px; left: 87px; opacity: 1.00; position: absolute; top: 80px; width: 530px; z-index: 1; " />
+
+
+          <div class="graphic_textbox_style_default" style="height: 100px; left: 300px; position: absolute; top: 278px; width: 100px; z-index: 1; " id="id5">
+            <div style="height: 0px; line-height: 0px; " class="tinyText"> </div>
+          </div>
+          
+
+
+          <div class="graphic_textbox_style_default" style="height: 19px; left: 125px; position: absolute; top: 431px; width: 175px; z-index: 1; " id="id6">
+            <div>
+              <div class="graphic_textbox_layout_style_default">
+                <div class="paragraph Heading_1_Gray" style="line-height: 11px; margin-bottom: 0px; margin-top: 0px; padding-bottom: 0pt; padding-top: 0pt; "><a href="http://stereo.gsfc.nasa.gov" title="http://stereo.gsfc.nasa.gov" style="font-size: 9px; line-height: 11px; opacity: 1.00; ">image from stereo.gsfc.nasa.gov</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="height: 100px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
+          <div style="height: 0px; line-height: 0px; " class="tinyText"> </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+

@@ -1,0 +1,40 @@
+#staff_list{
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+#staff_list li {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 150px;
+}
+
+.left_personal .staff_text_container{
+    text-align: left;
+}
+
+.right_personal .staff_text_container{
+    text-align: right;
+}
+
+.staff_img_container{
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.staff_img_container img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.left_personal .staff_img_container {
+    float: left;
+}
+
+.right_personal .staff_img_container {
+    float: right;
+}

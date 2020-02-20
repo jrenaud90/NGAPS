@@ -22,6 +22,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+    /* Background color and texture */
+    background-color: #e3f4ff;
+    background-image: url("../img/cream-pixels.png");
 }
 
 /*

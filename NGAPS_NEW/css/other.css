@@ -1,11 +1,30 @@
-#staff_list{
+/* About us page */
+* {
+    box-sizing: border-box;
+}
+
+#staff_list_left{
     text-align: center;
     list-style-type: none;
     padding: 0;
     overflow: hidden;
 }
 
-#staff_list li {
+#staff_list_left li {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 75px;
+}
+
+#staff_list_right{
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+#staff_list_right li {
     display: block;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -39,7 +58,29 @@
     float: right;
 }
 
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
 /* Events Page */
 #calendar_iframe {
     text-align: center;
 }
+

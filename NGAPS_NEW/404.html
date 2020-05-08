@@ -10,20 +10,29 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
+<script src="js/collapsible.js"></script>
+<script src="js/nav.js"></script>
+
 <body>
 
 <!-- Navigation Bar -->
-<div w3-include-html="nav.html"></div>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="nav_button">Home</a>
+  <a href="events.html" class="nav_button">Events and Calendar</a>
+  <a href="living.html" class="nav_button">Living @Goddard</a>
+  <a href="working.html" class="nav_button">Working @Goddard</a>
+  <a href="about_us.html" class="nav_button">About Us</a>
+  <a href="javascript:void(0);" class="icon" onclick="navCollapseFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 <!-- Navigation end -->
 
 
 <h1>Page Not Found</h1>
 <p>Sorry, but the page you were trying to view does not exist.</p>
 
-<script src="js/html_include.js"></script>
-<script src="js/nav.js"></script>
-<script>includeHTML();</script>
-</body>
 
+</body>
 </html>
 <!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->

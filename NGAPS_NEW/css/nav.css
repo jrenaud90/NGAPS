@@ -18,14 +18,18 @@
     color: black;
 }
 
-.topnav a.active {
+.topnav .icon {
+    display: none;
+}
+
+/* When you are on the page corresponding to the menu item - change its background color */
+.nav_active {
     background-color: #82c0ff;
     color: white;
 }
 
-.topnav .icon {
-    display: none;
-}
+
+/*Below is for the drop-down display*/
 
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
@@ -47,29 +51,4 @@
         display: block;
         text-align: left;
     }
-}
-
-/* Change the link color on hover */
-#nav li a:hover {
-    background-color: #82c0ff;
-}
-
-/* Fist item is a title, so let's treat it a bit different. */
-#nav li p {
-    display: block;
-    color: #292929;
-    text-align: center;
-    padding: 14px 16px;
-    margin: 0;
-    font-size: large;
-    text-decoration: none;
-}
-
-#nav li:first-child {
-    border-bottom: 1px solid #292929;
-}
-
-/* When you are on the page corresponding to the menu item - change its background color */
-#nav .nav_active {
-    background-color: #82c0ff;
 }

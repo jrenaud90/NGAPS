@@ -10,11 +10,24 @@
     <link rel="stylesheet" href="css/collapsible.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
+<script src="js/collapsible.js"></script>
+<script src="js/nav.js"></script>
+
 <body>
 
 <!-- Navigation Bar -->
-<div w3-include-html="nav.html"></div>
-<!-- Navigation end -->
+<div class="topnav" id="myTopnav">
+    <a href="index.html" class="nav_button">Home</a>
+    <a href="events.html" class="nav_button">Events and Calendar</a>
+    <a href="living.html" class="nav_button nav_active">Living @Goddard</a>
+    <a href="working.html" class="nav_button">Working @Goddard</a>
+    <a href="about_us.html" class="nav_button">About Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="navCollapseFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+<!-- Navigation - End -->
 
 <h2>Living & Working at Goddard Space Flight Center</h2>
 <p>New Postdoc, Contractor, or Civil Servant at NASA Goddard? Check out the information below designed to help new members of our community acclimate to the DC area.</p>
@@ -25,15 +38,15 @@
 <div class="content">
     <h4>Local Nomenclature</h4>
         <ul>
-            <li>NoVA - Northern Virginia (Fairfax, Arlington, Alexandria).</li>
-            <li>DMV - DC and its suburbs in southern Maryland and NoVa.</li>
-            <li>Innerloop - Suburbs inside of the 495 beltway, usually excluding downtown DC itself</li>
-            <li>95-Corridor - Regions directly east and west of interstate-95, usually excluding the Innerloop</li>
-            <li>Quadrants: DC is broken up into 4 quadrants (NW, NE, SE, SW) that all meet at the Capitol Building.
+            <li>NoVA - Northern Virginia (Fairfax, Arlington, Alexandria)</li>
+            <li>DMV - DC and its suburbs in southern Maryland and NoVa</li>
+            <li>Inner-loop - Suburbs inside of the 495 beltway, usually excluding downtown DC itself</li>
+            <li>95-Corridor - Regions directly east and west of interstate-95, usually excluding the Inner-loop</li>
+            <li>Quadrants: DC is broken up into 4 quadrants (NW, NE, SE, SW) that all meet at the Capitol Building
                 <ul>
-                    <li>Each street, and many landmarks, are designated by the quadrant they are in.</li>
-                    <li>E/W Streets increase in letter the further north/south they are from the Capitol.</li>
-                    <li>N/S Streets increase in number the further east/west they are from the Capitol.</li>
+                    <li>Each street, and many landmarks, are designated by the quadrant they are in</li>
+                    <li>E/W Streets increase in letter the further north/south they are from the Capitol</li>
+                    <li>N/S Streets increase in number the further east/west they are from the Capitol</li>
                 </ul>
             </li>
         </ul>
@@ -44,15 +57,17 @@
         </ul>
     <h4>Highways</h4>
         <ul>
-            <li>I-95, North & South</li>
-            <li>I-495, Inner & Outer Loops</li>
-            <li>I-395, South into Alexandria/Springfield</li>
-            <li>I-66, West into VA
-                <ul>Toll/HOV road between the beltway and DC, no toll west of 495.</ul>
+            <li>I-95: North & South highway along the East Coast</li>
+            <li>I-495: Inner (clockwise) & Outer Loops (counter-clockwise)</li>
+            <li>I-395: South into Alexandria/Springfield</li>
+            <li>I-66: West into VA
+                <ul>
+                    <li>I-66 is a toll/HOV road between the beltway and DC, no toll west of I-495</li>
+                </ul>
             </li>
-            <li>I-270, North-West into MD</li>
-            <li>US-50, West into VA or East into MD towards Annapolis</li>
-            <li>Baltimore-Washington Pkwy, North towards Baltimore</li>
+            <li>I-270: North-West into MD</li>
+            <li>US-50: West into VA or East into MD towards Annapolis, MD</li>
+            <li>Baltimore-Washington Pkwy, North towards Baltimore, MD</li>
         </ul>
     <h4><a href="https://www.wmata.com/service/rail/">Metrorail Subway</a> (<a href="https://www.wmata.com/schedules/maps/upload/2019-System-Map.pdf">map</a>):</h4>
         <ul>
@@ -166,9 +181,5 @@
     </ul>
 </div>
 
-<script src="js/nav.js"></script>
-<script src="js/collapsible.js"></script>
-<script src="js/html_include.js"></script>
-<script>includeHTML();</script>
 </body>
 </html>

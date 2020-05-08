@@ -8,10 +8,21 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
 
+<script src="js/nav.js"></script>
+
+<body>
 <!-- Navigation Bar -->
-<div w3-include-html="nav.html"></div>
+<div class="topnav" id="myTopnav">
+    <a href="index.html" class="nav_button nav_active">Home</a>
+    <a href="events.html" class="nav_button">Events and Calendar</a>
+    <a href="living.html" class="nav_button">Living @Goddard</a>
+    <a href="working.html" class="nav_button">Working @Goddard</a>
+    <a href="about_us.html" class="nav_button">About Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="navCollapseFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
 <!-- Navigation end -->
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at nibh at libero mattis fringilla ac ut arcu. Pellentesque mauris ante, aliquet vitae interdum a, dignissim et ex. Cras sollicitudin egestas blandit. In hac habitasse platea dictumst. Nam eu nibh ut lorem lobortis porttitor nec sed odio. Nunc vitae sem sit amet risus ullamcorper mollis. Sed iaculis at justo sed eleifend. Sed placerat nibh eget lorem luctus, dapibus fermentum nisl tincidunt. Nulla facilisi. Curabitur tincidunt efficitur orci, quis lacinia nulla eleifend a. Morbi sed tristique diam, vitae semper massa. Suspendisse sit amet arcu at diam finibus feugiat ut eget mauris. Nulla ultricies elit lectus, non condimentum leo mattis quis. Nulla venenatis rutrum ipsum id vulputate. Cras eu malesuada lectus.</p>
@@ -60,8 +71,5 @@
 
 <p>Nunc fermentum nisi justo, sed blandit felis bibendum non. Donec rhoncus sodales tristique. Pellentesque non dui volutpat, semper ex ac, porttitor nibh. Ut tristique euismod sagittis. Nulla facilisi. Mauris semper nibh neque, ut mollis ante vehicula ac. Suspendisse fermentum bibendum quam, et tincidunt libero commodo nec. Praesent pretium malesuada ornare. Phasellus facilisis ligula et elit malesuada rhoncus. Mauris fermentum molestie ultricies. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 
-<script src="js/html_include.js"></script>
-<script src="js/nav.js"></script>
-<script>includeHTML();</script>
 </body>
 </html>

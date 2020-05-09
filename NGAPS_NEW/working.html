@@ -6,29 +6,122 @@
     <title>NGAPS - Working at GSFC</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/other.css">
+    <link rel="stylesheet" href="css/collapsible.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<script src="js/collapsible.js"></script>
 <script src="js/nav.js"></script>
 
 <body>
-<!-- Navigation Bar -->
-<div class="topnav" id="myTopnav">
-    <a href="index.html" class="nav_button">Home</a>
-    <a href="events.html" class="nav_button">Events and Calendar</a>
-    <a href="living.html" class="nav_button">Living @Goddard</a>
-    <a href="working.html" class="nav_button nav_active">Working @Goddard</a>
-    <a href="about_us.html" class="nav_button">About Us</a>
-    <a href="javascript:void(0);" class="icon" onclick="navCollapseFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
+<div id="all_content">
+    <!-- Navigation Bar -->
+    <div class="topHolder">
+        <h1 id="title_text">Goddard Association of Postdoctoral and Early Career Scholars</h1>
+        <div class="topInnerHolder">
+            <a class="nav_img"><img src="logo/ngaps_main_edited_transpa.png" alt="NGAPS"/></a>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="nav_button">Home</a>
+                <a href="events.html" class="nav_button">Events and Calendar</a>
+                <a href="living.html" class="nav_button">Living @Goddard</a>
+                <a href="working.html" class="nav_button nav_active">Working @Goddard</a>
+                <a href="about_us.html" class="nav_button">About Us</a>
+                <a href="javascript:void(0);" class="icon" onclick="navCollapseFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Navigation end -->
+
+    <!-- Main Content -->
+    <div id="main_content">
+        <h2>Working at NASA Goddard</h2>
+        <p>The below information has been compiled with both new and old employees in-mind!</p>
+        <p><i>Click on any of the below topics to learn about them.</i></p>
+
+        <button type="button" class="collapsible">Campus & Building Info</button>
+        <div class="content">
+            <button type="button" class="collapsible">Navigating the Campus</button>
+            <div class="content">
+                <h4>Goddard Nomenclature</h4>
+                <ul>
+                    <li>Building numbers on the Goddard campus are based on when building's construction started and have nothing to do with location. So, B12 is right next to B36 (36 is just much newer).</li>
+                    <li>Some buildings are attached to one another like the large fabrication buildings: 7, 10, 15, and 29.</li>
+                </ul>
+                <h4>Getting to Campus</h4>
+                <ul>
+                    <li>There are four primary gates to get onto campus:</li>
+                    <ul>
+                        <li>Main Gate - connects the front side of Goddard to Greenbelt Rd. Not too far from the I-495 ramp, good if you are coming-from/going-to the South.</li>
+                        <ul>
+                            <li><b>The Main gate is the only gate you can enter if you do not have a visitor or regular badge:</b> Visit the <a href="https://www.nasa.gov/centers/goddard/visitor/home/badge.html">badging office</a> before coming onto campus.</li>
+                        </ul>
+                        <li>"Employee" or North-West Gate - connects the back side of Goddard to the Baltimore-Washington Pkwy with pretty easy access to I-495 if you are coming-from/going-to the North.</li>
+                        <li>South or "ICESAT Road" Gate - connects the front side of Goddard to Greenbelt Rd. It is good if you are coming-from/going-to Bowie, MD. The <a href="https://www.nasa.gov/centers/goddard/visitor/home/index.html">Goddard visitor's center</a> is just outside this gate.</li>
+                    </ul>
+                    <li>Check out the <a href="living.html">living @Goddard page</a> for more info about getting around the DC area.</li>
+                </ul>
+                <h4>Goddard Campus Map</h4>
+                <ul>
+                    <li>A latest version of the campus map can be found using the links on the left-hand-side <a href="https://internal.gsfc.nasa.gov">this site</a> (VPN or on-campus internet connection is required).</li>
+                    <li>Here is a pdf that you can access off-campus: <a href="docs/2019_gsfc_campus_map.pdf">GSFC Map (updated 2019)</a>.</li>
+                </ul>
+            </div>
+
+            <button type="button" class="collapsible">Building Info</button>
+            <div class="content">
+                <p>Do you know the inside scoop about a building not listed here? <a href="about_us.html#contact_us">Let us know!</a></p>
+                <button type="button" class="collapsible">Building 1</button>
+                <div class="content">
+                    <p>Do you know the inside scoop about this building? <a href="about_us.html#contact_us">Let us know!</a></p>
+                </div>
+                <button type="button" class="collapsible">Building 12</button>
+                <div class="content">
+                    <p>Do you know the inside scoop about this building? <a href="about_us.html#contact_us">Let us know!</a></p>
+                </div>
+                <button type="button" class="collapsible">Building 21</button>
+                <div class="content">
+                    <p>Do you know the inside scoop about this building? <a href="about_us.html#contact_us">Let us know!</a></p>
+                </div>
+                <button type="button" class="collapsible">Building 29</button>
+                <div class="content">
+                    <p>Do you know the inside scoop about this building? <a href="about_us.html#contact_us">Let us know!</a></p>
+                </div>
+                <button type="button" class="collapsible">Building 32</button>
+                <div class="content">
+                    <p>Do you know the inside scoop about this building? <a href="about_us.html#contact_us">Let us know!</a></p>
+                </div>
+                <button type="button" class="collapsible">Building 33</button>
+                <div class="content">
+                    <p>Do you know the inside scoop about this building? <a href="about_us.html#contact_us">Let us know!</a></p>
+                </div>
+                <button type="button" class="collapsible">Building 34</button>
+                <div class="content">
+                    <p>Do you know the inside scoop about this building? <a href="about_us.html#contact_us">Let us know!</a></p>
+                </div>
+                <button type="button" class="collapsible">Building 35</button>
+                <div class="content">
+                    <p>Do you know the inside scoop about this building? <a href="about_us.html#contact_us">Let us know!</a></p>
+                </div>
+                <button type="button" class="collapsible">Building 36</button>
+                <div class="content">
+                    <p>Do you know the inside scoop about this building? <a href="about_us.html#contact_us">Let us know!</a></p>
+                </div>
+                <button type="button" class="collapsible">Building 37</button>
+                <div class="content">
+                    <p>Do you know the inside scoop about this building? <a href="about_us.html#contact_us">Let us know!</a></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
 </div>
-<!-- Navigation end -->
-
-<!-- Main Content -->
-
 <!-- Main Content - END -->
 
+<script src="js/collapsible.js"></script>
 </body>
 </html>

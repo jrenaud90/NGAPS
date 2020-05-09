@@ -27,6 +27,18 @@ body {
     background-image: url("../img/cream-pixels.png");
 }
 
+#all_content {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.6) 15%, rgba(255,255,255,.6) 50%, rgba(255,255,255,.6) 95%, rgba(255,255,255,0) 100%);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+
+#mainContent { }
+
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301

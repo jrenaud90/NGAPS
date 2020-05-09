@@ -1,3 +1,32 @@
+
+/*Title Style*/
+#title_text {
+    color:  #333;
+    background: rgb(239,239,239);
+    background: linear-gradient(0deg, rgba(239,239,239,1) 0%, rgba(239,239,239,1) 80%, rgba(239,239,239,0) 100%);
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
+}
+
+/* If the screen size is 600px wide or less */
+@media screen and (max-width: 800px) {
+    #title_text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    #title_text {
+        font-size: 2vw;
+    }
+}
+
+.topInnerHolder{
+    overflow: hidden;
+}
+
+/*Navigation Box Style*/
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -30,8 +59,7 @@
 
 
 /*Below is for the drop-down display*/
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
         float: right;
@@ -39,7 +67,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
         position: absolute;
@@ -51,4 +79,27 @@
         display: block;
         text-align: left;
     }
+}
+
+/* Navigation Image*/
+.nav_img {
+    background: rgba(239,239,239,1);
+    background: linear-gradient(180deg, rgba(239,239,239,1) 0%, rgba(239,239,239,1) 90%, rgba(239,239,239,0) 100%);
+    color: black;
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    max-width: 240px;
+    min-width: 100px;
+}
+
+.nav_img img{
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }

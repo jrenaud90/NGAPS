@@ -37,7 +37,9 @@ body {
 
 #mainContent { }
 
-
+#calendar_iframe_main {
+    text-align: center;
+}
 
 /*
  * Remove text-shadow in selection highlight:

@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-#staff_list_left{
+#staff_list_left {
     text-align: center;
     list-style-type: none;
     padding: 0;
@@ -17,7 +17,7 @@
     padding-bottom: 75px;
 }
 
-#staff_list_right{
+#staff_list_right {
     text-align: center;
     list-style-type: none;
     padding: 0;
@@ -31,21 +31,21 @@
     padding-bottom: 75px;
 }
 
-.left_personal .staff_text_container{
+.left_personal .staff_text_container {
     text-align: left;
 }
 
-.right_personal .staff_text_container{
+.right_personal .staff_text_container {
     text-align: right;
 }
 
-.staff_img_container{
+.staff_img_container {
     width: 125px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.staff_img_container img{
+.staff_img_container img {
     max-height: 100%;
     max-width: 100%;
 }

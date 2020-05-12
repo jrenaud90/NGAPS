@@ -1,9 +1,8 @@
-
 /*Title Style*/
 #title_text {
-    color:  #333;
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,.75) 0%, rgba(255,255,255,.75) 80%, rgba(255,255,255,0) 100%);
+    color: #333;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, .75) 0%, rgba(255, 255, 255, .75) 80%, rgba(255, 255, 255, 0) 100%);
     font-size: 2vw;
     margin: 0;
     padding: 0;
@@ -11,8 +10,8 @@
 
 /* Navigation Image*/
 .nav_img {
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,.75) 0%, rgba(255,255,255,.75) 90%, rgba(255,255,255,0) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, .75) 0%, rgba(255, 255, 255, .75) 90%, rgba(255, 255, 255, 0) 100%);
     color: black;
     width: 15%;
     margin: 0;
@@ -26,7 +25,7 @@
     min-width: 100px;
 }
 
-.nav_img img{
+.nav_img img {
     padding: 0;
     margin: 0;
     width: 100%;
@@ -45,7 +44,7 @@
     }
 }
 
-.topInnerHolder{
+.topInnerHolder {
     overflow: hidden;
 }
 
@@ -83,7 +82,10 @@
 
 /*Below is for the drop-down display*/
 @media screen and (max-width: 800px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
     .topnav a.icon {
         float: right;
         display: block;
@@ -91,12 +93,16 @@
 }
 
 @media screen and (max-width: 800px) {
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {
+        position: relative;
+    }
+
     .topnav.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
     }
+
     .topnav.responsive a {
         float: none;
         display: block;

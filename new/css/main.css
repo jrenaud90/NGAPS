@@ -48,7 +48,7 @@ body {
 
 /*Mini Top Navigation*/
 .sub_nav {
-    margin: 8px 0 2px;
+    margin: 2px 0;
     padding: 0;
     width: 100%;
     text-align:center;
@@ -56,12 +56,23 @@ body {
 
 .sub_nav a{
     font-weight: bold;
-    padding: 14px 16px;
+    padding: 0 10px;
     display: inline-block;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
 }
+
+.sub_nav p{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
 
 /*Anchor Links*/
 .anchor_link {

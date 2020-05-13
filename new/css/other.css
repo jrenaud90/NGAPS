@@ -15,6 +15,7 @@
     margin-bottom: 20px;
     margin-top: 20px;
     padding-bottom: 75px;
+    max-height: 150px;
 }
 
 #staff_list_right {
@@ -29,6 +30,7 @@
     margin-bottom: 20px;
     margin-top: 20px;
     padding-bottom: 75px;
+    max-height: 150px;
 }
 
 .left_personal .staff_text_container {

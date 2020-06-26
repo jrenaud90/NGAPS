@@ -18,10 +18,66 @@ html {
 }
 
 body {
-    font-family: Sans-Serif, "Helvetica Neue", Arial;
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 90%;
+    /* Background color and texture */
+    background-color: #e3f4ff;
+    background-image: url("../img/cream-pixels.png");
+}
+
+#all_content {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .6) 15%, rgba(255, 255, 255, .6) 50%, rgba(255, 255, 255, .6) 95%, rgba(255, 255, 255, 0) 100%);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+
+#main_content {
+    margin: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#calendar_iframe_main {
+    text-align: center;
+
+}
+
+/*Mini Top Navigation*/
+.sub_nav {
+    margin: 2px 0;
+    padding: 0;
+    width: 100%;
+    text-align:center;
+}
+
+.sub_nav a{
+    font-weight: bold;
+    padding: 0 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sub_nav p{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+/*Anchor Links*/
+.anchor_link {
+    margin: 0;
+    padding: 0;
 }
 
 /*
@@ -221,16 +277,20 @@ textarea {
         box-shadow: none !important;
         text-shadow: none !important;
     }
+
     a,
     a:visited {
         text-decoration: underline;
     }
+
     a[href]:after {
         content: " (" attr(href) ")";
     }
+
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
+
     /*
        * Don't show links that are fragment identifiers,
        * or use the `javascript:` pseudo protocol
@@ -239,14 +299,17 @@ textarea {
     a[href^="javascript:"]:after {
         content: "";
     }
+
     pre {
         white-space: pre-wrap !important;
     }
+
     pre,
     blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
+
     /*
        * Printing Tables:
        * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
@@ -254,16 +317,19 @@ textarea {
     thead {
         display: table-header-group;
     }
+
     tr,
     img {
         page-break-inside: avoid;
     }
+
     p,
     h2,
     h3 {
         orphans: 3;
         widows: 3;
     }
+
     h2,
     h3 {
         page-break-after: avoid;

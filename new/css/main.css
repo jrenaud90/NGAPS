@@ -41,9 +41,40 @@ body {
     padding-left: 5px;
 }
 
+/* Set the default padding and margins for all text blocks, etc */
+#main_content p, div, i, b, a {
+    margin: 0;
+    padding: 0;
+}
+
+#main_content h1 {
+    margin-top: 18px;
+    margin-bottom: 6px;
+    padding: 0;
+}
+
+#main_content h2 {
+    margin-top: 16px;
+    margin-bottom: 4px;
+    padding: 0;
+}
+
+#main_content h3 {
+    margin-top: 14px;
+    margin-bottom: 4px;
+    padding: 0;
+}
+
+#main_content h4, h5 {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding: 0;
+}
+
+/* Calendar frame */
 #calendar_iframe_main {
     text-align: center;
-
+    margin-top: 10px;
 }
 
 /*Mini Top Navigation*/
@@ -73,6 +104,40 @@ body {
     font-size: 16px;
 }
 
+/* Footer Style */
+#footer {
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+#footer p, i, b, a {
+    margin: 0;
+    padding: 0;
+}
+
+#footer h1 {
+    margin-top: 18px;
+    margin-bottom: 6px;
+    padding: 0;
+}
+
+#footer h2 {
+    margin-top: 16px;
+    margin-bottom: 4px;
+    padding: 0;
+}
+
+#footer h3 {
+    margin-top: 14px;
+    margin-bottom: 4px;
+    padding: 0;
+}
+
+#footer h4, h5 {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding: 0;
+}
 
 /*Anchor Links*/
 .anchor_link {

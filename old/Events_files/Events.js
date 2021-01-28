@@ -79,7 +79,7 @@ function adjustFontSizeIfTooBig(idOfElement)
                     }
                     var minimum = parseFloat(MINIMUM_FONT);
                     
-                    var count = 0
+                    var count = 0;
                     while ((smallestFontSize > minimum) && (offsetHeight > specifiedHeight) && (count < 10))
                     {
                         ++ count;
@@ -465,7 +465,7 @@ function getChildOfType(oParent, sNodeName, requestedIndex)
 
 function getParaDescendants(oAncestor)
 {
-    var oParaDescendants = new Array();
+    var oParaDescendants = [];
     var oPotentialParagraphs = oAncestor.getElementsByTagName('DIV');
     for (var iIndex=0; iIndex<oPotentialParagraphs.length; iIndex++)
     {

@@ -1,5 +1,8 @@
 # NGAPS - Website
 
+Version 1.2 (2/22/2021)
+    - Added Activities Pages
+
 Version 1.1 (6/26/2020)
     - Removed building specific information
     - Added call for inclusion officer

@@ -1,4 +1,11 @@
-# NGAPS - Website
+# NGAPS+ - Website
+
+Version 1.3 (3/7/2022)
+    - Added More NGAPS+ resources and activities
+    - Updates to officers page
+    - Changed instances of "NGAPS" to "NAGPS+"
+    - Added new admin email address
+    - Updated 404 page
 
 Version 1.2 (2/22/2021)
     - Added Activities Pages

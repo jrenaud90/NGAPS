@@ -3,6 +3,24 @@
     box-sizing: border-box;
 }
 
+#staff_list_left_nopic {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#staff_list_right_nopic {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
 #staff_list_left {
     text-align: center;
     list-style-type: none;

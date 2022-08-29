@@ -8,12 +8,14 @@
     list-style-type: none;
     padding: 0;
     overflow: hidden;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 #staff_list_left li {
     display: block;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
     padding-bottom: 75px;
     max-height: 150px;
 }
@@ -23,12 +25,14 @@
     list-style-type: none;
     padding: 0;
     overflow: hidden;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 #staff_list_right li {
     display: block;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
     padding-bottom: 75px;
     max-height: 150px;
 }
@@ -64,7 +68,8 @@
 .column {
     float: left;
     width: 50%;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Clear floats after the columns */
